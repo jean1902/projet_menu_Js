@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #A0ACAD;
+}
+
+.container_players{
+    width: 35%; 
+    min-height:  1331px;
+    background-color: black;
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    padding: 40px;
+}
+.profile_card{
+    height: 900px;
+}
+.img_joueur{
+    height: 100%;
+    width: 100%;
+    object-position: center;    
+}
+.text-card{
+    color: white;
+    margin-top: 100px;
+    font-size: 26px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 50px;
+    text-align: center;
+    word-spacing: 4px;
+    padding: 0px 90px;
+}
+.card_button{
+  position: absolute;
+  top: 36%;
+  left: 0;
+  
+}
+.card_button button{
+    padding: 30px 60px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #DAFF7D;
+    border: none;
+    font-size: 22px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px black;
+  }
+  .card_button button:hover{
+    background-color: #9B1D20;
+    color: white;
+    transition: all 0.3s;
+  }
+   /* .player_card{
+      display: none;
+  }
+  .active{
+      display: block;
+  } */
+  .disabled{
+      display: none;
+  } 
